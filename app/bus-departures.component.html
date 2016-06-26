@@ -1,0 +1,10 @@
+<div class="bus-departure-component side-component">
+    <h2 class="title">{{title}}</h2>
+    <ul class="departures">
+        <li *ngFor="let departure of departures" class="departure">
+            <div class="line-number">{{departure.line.number}}</div>
+            <div class="line-name">{{departure.line.name | ellipsis:12}}</div>
+            <div class="arrival">{{departure.arrival.expected}}</div>
+        </li>
+    </ul>
+</div>

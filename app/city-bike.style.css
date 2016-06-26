@@ -1,0 +1,46 @@
+.city-bike-component ul.stations {
+    width: inherit;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.city-bike-component li.station {
+    list-style: none;
+}
+
+.city-bike-component li.station .name {
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 40px;
+    width: 180px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 4px;
+}
+
+.city-bike-component li.station .availability {
+    display: inline;
+    margin-right: 20px;
+}
+
+.city-bike-component li.station .availability .key {
+    font-weight: 300;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 40px;
+    /*width: 20px;*/
+    display: inline-block;
+    text-align: left;
+}
+
+.city-bike-component li.station .availability .value {
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 40px;
+    width: 20px;
+    display: inline-block;
+    text-align: right;
+}

@@ -1,0 +1,16 @@
+<div class="city-bike-component side-component">
+    <h2 class="title">{{title}}</h2>
+    <ul class="stations">
+        <li *ngFor="let station of stations" class="station">
+            <div class="name">{{station.name | ellipsis:15}}</div>
+            <div class="availability">
+                <div class="key">S:</div>
+                <div class="value">{{station.availability.bikes}}</div>
+            </div>
+            <div class="availability">
+                <div class="key">L:</div>
+                <div class="value">{{station.availability.locks}}</div>
+            </div>
+        </li>
+    </ul>
+</div>

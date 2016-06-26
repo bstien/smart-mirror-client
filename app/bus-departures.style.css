@@ -1,0 +1,46 @@
+.bus-departure-component ul.departures {
+    width: inherit;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.bus-departure-component li.departure {
+    list-style: none;
+}
+
+.bus-departure-component li.departure .line-number {
+    font-weight: 500;
+    font-size: 29px;
+    color: #FFFFFF;
+    line-height: 40px;
+    width: 60px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 4px;
+}
+
+.bus-departure-component li.departure .line-name {
+    font-weight: 300;
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 40px;
+    width: 140px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 4px;
+}
+
+.bus-departure-component li.departure .arrival {
+    font-weight: 500;
+    font-size: 29px;
+    color: #FFFFFF;
+    line-height: 40px;
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+}
+
+.bus-departure-component li.departure div {
+    display: inline;
+}
